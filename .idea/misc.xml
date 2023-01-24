@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_admin_options.xml" value="0.264" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_edit_admins.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_event_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_events_options.xml" value="0.264" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_login_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_news_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_open_events.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_previous_yrs_events.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/activity_upcoming_events.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/events_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/fragment_2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/fragment_fragment1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/fragment_fragment3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/fragment_fragment4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/fragment_fragment5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/fragment_news_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/news_row.xml" value="0.264" />
+        <entry key="..\:/Users/Faizan/AndroidStudioProjects/Trinity_college_application/app/src/main/res/layout/open_news.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+ <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCCDC1"
+    tools:context=".fragment2">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyler02"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Upcoming Events "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#E9D5CA"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" \nEvent 1      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#BCCDC1"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                \nEvent 2      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#CEE5D0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                \nEvent 3      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#BCCDC1"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                \nEvent 4      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#CEE5D0"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                \nEvent 5      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#BCCDC1"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#CEE5D0"
+                android:text="
+                \nEvent 6      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                \nEvent 7      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#BCCDC1"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                \nEvent 8      date: dd-mm-yyyy
+                 Description:______________________
+                 _____________________________ "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:background="#CEE5D0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                \n
+
+                                                    "
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+    -->

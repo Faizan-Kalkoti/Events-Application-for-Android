@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EDDC"
+    tools:context=".News_Admin">
+
+    <Button
+        android:id="@+id/delete_button_news"
+        android:layout_width="94dp"
+        android:layout_height="50dp"
+        android:text="Delete"
+        android:onClick="deletenews"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <Button
+        android:id="@+id/add_button_news"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Add"
+        android:onClick="enternews"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <TextView
+        android:id="@+id/textView_heading2"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Edit News"
+        android:textAlignment="center"
+        android:textColor="#634D4D"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textView_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="410dp"
+        android:layout_height="66dp"
+        android:background="#ECD7BD"
+        android:paddingHorizontal="70dp"
+        android:paddingVertical="10dp"
+        android:text="Computer Department \nNews"
+        android:textAlignment="center"
+        android:textColor="#634D4D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <EditText
+                android:id="@+id/Newsnumber"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:hint=" News no."
+                android:inputType="number"
+                android:textColorHint="#78909C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Newsdate"
+                android:layout_width="230dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:hint=" Date"
+                android:inputType="text"
+                android:textColorHint="#78909C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/passcode"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint=" Title"
+            android:inputType="text"
+            android:textColorHint="#78909C"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Newsdescrption"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint=" Description"
+            android:inputType="textMultiLine"
+            android:textColorHint="#78909C"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
